@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iconic Brand — Screen Print Pricing</title>
+    <style>
+      /* Hide controls & buttons when printing (backup export via Ctrl/Cmd+P) */
+      @media print {
+        .no-print { display: none !important; }
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
